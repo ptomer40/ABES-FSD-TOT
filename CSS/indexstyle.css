@@ -1,0 +1,47 @@
+
+/* *{
+    background-color: dimgray;
+}
+h1{
+    background-color: chocolate;
+}
+P{
+    background-color: aquamarine;
+    color: chartreuse;
+} */
+
+/* #p1{
+    background-color: cadetblue;
+    color: black;
+} */
+/* .paragraph{
+background-color: red;
+color: white;
+font-size: xx-large;
+} */
+
+div~p{
+background-color: blue;
+color: white;
+}
+/* p:hover{
+    font-size: xx-large;
+    background-color: brown;
+    color: white;
+} */
+
+p::before{
+    content: " Welcome, to ABES Engineering college";
+}
+
+p::after{
+    content: "We have siccessfully Completed this program";
+    background-color: aqua;
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p::selection{
+    background-color: chartreuse;
+    color: black;
+}
